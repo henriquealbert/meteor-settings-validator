@@ -10,10 +10,11 @@ Upon successful validation, the method returns the verified settings. If execute
 
 ## Usage
 
-1. Installation: Ensure Zod is installed in your project.
+1. Installation: Ensure Zod and meteor-settings-validator are installed in your project.
 
 ```bash
-npm install zod
+meteor add hschmaiske:meteor-settings-validator
+meteor npm i zod
 ```
 
 2. Import the class: Import the MeteorSettingsValidator class into your TypeScript file.
