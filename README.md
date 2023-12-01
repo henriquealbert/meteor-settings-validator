@@ -18,7 +18,7 @@ npm install zod
 
 2. Import the class: Import the MeteorSettingsValidator class into your TypeScript file.
 ```typescript
-import { MeteorSettingsValidator } from "./packages/meteor-settings-validator";
+import { MeteorSettingsValidator } from "hschmaiske:meteor-settings-validator";
 ```
 
 3. Create a ZodObject for Meteor.settings: Define a ZodObject that represents the expected structure of Meteor.settings. For example:
@@ -41,14 +41,5 @@ const settingsValidator = new MeteorSettingsValidator(MeteorSettingsSchema);
 const settingsValidator = new MeteorSettingsValidator(MeteorSettingsSchema);
 const settings = settingsValidator.get();
 ```
-
-We've already set up a `getMeteorSettings` function in the `index.ts` file. You can utilize it to fetch the settings in your project.
-```typescript
-import { getMeteorSettings } from "./packages/meteor-settings-validator";
-
-const settings = getMeteorSettings();
-console.log(settings.public.example);
-```
-
 
 - TODO: add tests
