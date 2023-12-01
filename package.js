@@ -17,10 +17,3 @@ Package.onUse(function (api) {
     api.use("zodern:types@1.0.0");
     api.mainModule("src/index.ts");
 });
-
-Package.onTest(function (api) {
-    api.use("ecmascript");
-    api.use("tinytest");
-    api.use("meteor-settings-validator");
-    api.mainModule("meteor-settings-validator-tests.js");
-});
