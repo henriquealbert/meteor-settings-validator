@@ -1,0 +1,28 @@
+{
+  "name": "meteor-settings-validator",
+  "version": "1.0.0",
+  "description": "Meteor Settings e2e type safe",
+  "main": "src/index.ts",
+  "scripts": {
+    "check-types": "npm install && tsc && tsd ./tests",
+    "postcheck-types": "npm prune --prod",
+    "test": "meteor test-packages ./ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquealbert/meteor-settings-validator.git"
+  },
+  "keywords": [],
+  "author": "henriquealbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquealbert/meteor-settings-validator/issues"
+  },
+  "homepage": "https://github.com/henriquealbert/meteor-settings-validator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/meteor": "^2.9.7",
+    "typescript": "^5.3.2",
+    "zod": "^3.22.4"
+  }
+}
