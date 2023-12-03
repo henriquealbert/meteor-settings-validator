@@ -41,6 +41,9 @@ const settingsValidator = new MeteorSettingsValidator(MeteorSettingsSchema);
 ```typescript
 const settingsValidator = new MeteorSettingsValidator(MeteorSettingsSchema);
 const settings = settingsValidator.get();
+
+// and you can use like this:
+settings.public.myCustomKey
 ```
 
 - TODO: add tests
