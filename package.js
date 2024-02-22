@@ -14,6 +14,6 @@ Package.onUse(function (api) {
     api.versionsFrom(["2.13.3", "3.0-beta.4"]);
     api.use("ecmascript");
     api.use("typescript");
-    api.use("zodern:types", { weak: true });
+    api.use("zodern:types@1.0.0", { weak: true });
     api.mainModule("src/index.ts");
 });
