@@ -1,10 +1,10 @@
 {
     "name": "meteor-settings-validator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Meteor Settings e2e type safe",
     "main": "src/index.ts",
     "scripts": {
-        "check-types": "npm install && tsc",
+        "check-types": "tsc --noEmit",
         "postcheck-types": "npm prune --prod",
         "test": "meteor test-packages ./ ",
         "npm-latest": "ncu --interactive --format group"
