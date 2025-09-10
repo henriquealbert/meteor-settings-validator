@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Npm.depends({
-    zod: "3.22.4",
+    zod: "4.0.15",
 });
 
 Package.onUse(function (api) {

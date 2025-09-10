@@ -20,10 +20,9 @@
         "url": "https://github.com/henriquealbert/meteor-settings-validator/issues"
     },
     "homepage": "https://github.com/henriquealbert/meteor-settings-validator#readme",
-    "dependencies": {},
     "devDependencies": {
         "@types/meteor": "^2.9.8",
         "typescript": "^5.3.3",
-        "zod": "^3.22.4"
+        "zod": "^4.0.15"
     }
 }
