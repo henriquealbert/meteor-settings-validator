@@ -1,6 +1,6 @@
 {
     "name": "meteor-settings-validator",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Meteor Settings e2e type safe",
     "main": "src/index.ts",
     "scripts": {
@@ -22,7 +22,8 @@
     "homepage": "https://github.com/henriquealbert/meteor-settings-validator#readme",
     "devDependencies": {
         "@types/meteor": "^2.9.8",
-        "typescript": "^5.3.3",
+        "@types/node": "^22.18.1",
+        "typescript": "^5.9.2",
         "zod": "^4.0.15"
     }
 }

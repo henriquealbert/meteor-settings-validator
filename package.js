@@ -1,7 +1,7 @@
 Package.describe({
     git: "https://github.com/henriquealbert/meteor-settings-validator",
     name: "hschmaiske:meteor-settings-validator",
-    version: "1.0.1",
+    version: "1.0.3",
     summary: "Meteor Settings e2e type safe",
     documentation: "README.md",
 });

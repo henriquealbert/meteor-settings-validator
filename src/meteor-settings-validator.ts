@@ -24,6 +24,7 @@ export class MeteorSettingsValidator<T extends ZodRawShape> {
             // If we're on the client, only return the public settings
             if (Meteor.isClient) {
                 return {
+                    // @ts-ignore
                     public: validatedSettings.public,
                 } as unknown as z.infer<typeof this.schema>;
             }
@@ -31,6 +32,7 @@ export class MeteorSettingsValidator<T extends ZodRawShape> {
             return validatedSettings as unknown as z.infer<typeof this.schema>;
         } catch (error) {
             if (error instanceof ZodError) {
+                // @ts-ignore
                 console.error("Invalid Meteor.settings:", error.errors);
             } else {
                 console.error("Unexpected error:", error);

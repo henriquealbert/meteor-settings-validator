@@ -1,10 +1,10 @@
 {
-  "lockfileVersion": 1,
+  "lockfileVersion": 4,
   "dependencies": {
     "zod": {
-      "version": "3.22.4",
-      "resolved": "https://registry.npmjs.org/zod/-/zod-3.22.4.tgz",
-      "integrity": "sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg=="
+      "version": "4.0.15",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-4.0.15.tgz",
+      "integrity": "sha512-2IVHb9h4Mt6+UXkyMs0XbfICUh1eUrlJJAOupBHUhLRnKkruawyDddYRCs0Eizt900ntIMk9/4RksYl+FgSpcQ=="
     }
   }
 }
